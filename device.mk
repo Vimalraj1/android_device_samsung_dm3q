@@ -26,6 +26,9 @@ PRODUCT_PACKAGES += \
     SystemUIResDm3q \
     WifiResTargetDm3q
 
+# Recovery
+BOARD_USES_FULL_RECOVERY_IMAGE := true
+
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_wlanmdsp.otaupdate_symlink \

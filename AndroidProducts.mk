@@ -6,3 +6,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_dm3q.mk
+
+COMMON_LUNCH_CHOICES := \
+     lineage_dm3q-user \
+     lineage_dm3q-userdebug \
+     lineage_dm3q-eng
